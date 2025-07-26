@@ -1,0 +1,28 @@
+# Environment variables
+.env
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+
+# Git metadata
+.git/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Database files
+*.db
+*.sqlite3
+
+# Log files
+*.log
+
+# JSON data files
+*.json
+
+# IDE and editor settings
+.idea/
+.vscode/
