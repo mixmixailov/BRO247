@@ -4,7 +4,8 @@ import asyncio
 from fastapi import FastAPI, Request
 from telegram import Update
 
-from bot import create_bot
+from bot.bot import create_bot
+
 
 # Загрузка переменных окружения
 load_dotenv()
