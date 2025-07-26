@@ -6,7 +6,8 @@ from telegram.ext import Application, CommandHandler
 load_dotenv()
 
 # Импорт функции-обработчика /start
-from handlers.start_handler import start
+from bot.handlers.start_handler import start
+
 
 async def create_bot() -> Application:
     """
